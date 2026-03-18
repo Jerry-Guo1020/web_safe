@@ -11,11 +11,11 @@ let timer = null
 let countdownTimer = null
 
 onMounted(() => {
-  // 8秒后显示弹窗
+  // 5秒后显示弹窗
   timer = setTimeout(() => {
     showPopup.value = true
     startCountdown()
-  }, 8000)
+  }, 5000)
 })
 
 onUnmounted(() => {
